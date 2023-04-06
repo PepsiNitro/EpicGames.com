@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Games</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#000000" />
+
+    </head>
+    <body>
+
+        <a href="subway-surfers/index.html">Subway Surfers</a>
+        <a href="snowbattle/index.html">Snowbattle</a>
+        <a href="slope/index.html">Slope</a>
+        <a href="scrapmetal/index.html">ScrapMetal</a>
+        <a href="paperio2/index.html">Paper.io 2</a>
+        <a href="Minecraft/index.html">Minecraft</a>
+        <a href="madalin-stunt-cars-3/index.html">Madalin Stunt Cars 3</a>
+        <a href="JetpackJoyride/index.html">Jetpack Joyride</a>
+        <a href="csgo-clicker/index.html">CSGO Clicker</a>
+
+
+
+      
+<script>
+
+    // ServiceWorker Registration
+    if('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+            navigator.serviceWorker.register('sw.js').then(function(registration) {
+                // Registration was successful
+                console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                
+            }, function(err) {
+                // registration failed :(
+                console.log('ServiceWorker registration failed: ', err);
+            });
+        });
+    }
+    
+</script>
+</body>
+</html>
