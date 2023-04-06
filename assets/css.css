@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: lime;
+}
+
+a {
+    color: lime;
+    font-size: larger;
+    background-color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-color: lime;
+    border-style: solid;
+
+}

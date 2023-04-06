@@ -1,16 +1,16 @@
-var CACHE_NAME = 'version0'; // bump this version when you make changes.
+var CACHE_NAME = 'version1'; // bump this version when you make changes.
 // Put all your urls that you want to cache in this array
 var urlsToCache = [
     'index.html',
-    'subway-surfers/',
-    'snowbattle/',
-    'slope/',
-    'scrapmetal/',
-    'paperio2/',
-    'Minecraft/',
-    'madalin-stunt-cars-3/',
-    'JetpackJoyride/',
-    'csgo-clicker/',
+    'games/subway-surfers/',
+    'games/snowbattle/',
+    'games/slope/',
+    'games/scrapmetal/',
+    'games/paperio2/',
+    'games/Minecraft/',
+    'games/madalin-stunt-cars-3/',
+    'games/JetpackJoyride/',
+    'games/csgo-clicker/',
 
     'assets/logo-192.png',
     'assets/logo-512.png'
