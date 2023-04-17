@@ -1,4 +1,4 @@
-var CACHE_NAME = 'version7'; // bump this version when you make changes.
+var CACHE_NAME = 'version8'; // bump this version when you make changes.
 // Put all your urls that you want to cache in this array
 var urlsToCache = [
     'index.html',
@@ -14,6 +14,8 @@ var urlsToCache = [
     'games/evil-glitch/',
     'games/stick-duel-battle/',
     'games/pixel-combat-2/',
+    'games/temple-run-2/',
+
 
 
     'css.css',
