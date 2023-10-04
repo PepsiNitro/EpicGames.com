@@ -1,4 +1,4 @@
-var CACHE_NAME = 'version12'; // bump this version when you make changes.
+var CACHE_NAME = 'version13'; // bump this version when you make changes.
 // Put all your urls that you want to cache in this array
 var urlsToCache = [
     'index.html',
@@ -25,6 +25,8 @@ var urlsToCache = [
     'games/missiles/',
     'games/pixel-gun-survival/',
     'games/soccer-random/',
+    'games/boxing-random/',
+    'games/volley-random/',
 
 
 
